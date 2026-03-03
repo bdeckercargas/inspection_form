@@ -115,6 +115,7 @@
         {
           "type": "paneldynamic",
           "name": "Piping System",
+          "startWithNewLine": false,
           "title": "Piping System",
           "description": "Carefully examine each component of the system visually looking for any signs of leakage.",
           "isRequired": true,
@@ -156,24 +157,6 @@
               "title": "Failure Comments",
               "isRequired": true,
               "requiredIf": "{Piping System[0].Valve} = false"
-            },
-            {
-              "type": "boolean",
-              "name": "Flange",
-              "title": "Flange",
-              "isRequired": true,
-              "labelTrue": "Pass",
-              "labelFalse": "Fail",
-              "swapOrder": true
-            },
-            {
-              "type": "text",
-              "name": "question7",
-              "visibleIf": "{Piping System[0].Flange} = false",
-              "startWithNewLine": false,
-              "title": "Failure Comments",
-              "isRequired": true,
-              "requiredIf": "{Piping System[0].Flange} = false"
             }
           ],
           "allowAddPanel": false,
