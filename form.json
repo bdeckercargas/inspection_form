@@ -111,11 +111,16 @@
               "text": "SV010"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "title": "Inspection",
+      "elements": [
         {
           "type": "paneldynamic",
           "name": "Piping System",
-          "startWithNewLine": false,
           "title": "Piping System",
           "description": "Carefully examine each component of the system visually looking for any signs of leakage.",
           "isRequired": true,
