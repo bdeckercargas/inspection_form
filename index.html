@@ -8,11 +8,17 @@
   <!-- SurveyJS theme -->
   <link href="https://unpkg.com/survey-core/defaultV2.min.css" rel="stylesheet" />
 
-  <!-- jQuery (required for survey-jquery build) -->
+  <!-- jQuery -->
   <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.min.js"></script>
 
   <!-- SurveyJS (jQuery build) -->
   <script src="https://unpkg.com/survey-jquery/survey.jquery.min.js"></script>
+
+  <!-- ✅ SignaturePad dependency (used by the widget) -->
+  <script src="https://unpkg.com/signature_pad@4.1.7/dist/signature_pad.umd.min.js"></script>
+
+  <!-- ✅ SurveyJS Widgets bundle (includes signaturepad question) -->
+  <script src="https://unpkg.com/surveyjs-widgets/surveyjs-widgets.min.js"></script>
 
   <style>
     body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -31,14 +37,18 @@
         if (!res.ok) throw new Error("Could not load form.json (" + res.status + ")");
         const schema = await res.json();
 
-        // Optional: use the modern look (defaultV2)
         Survey.StylesManager.applyTheme("defaultV2");
+
+        // ✅ Register widgets (including signaturepad)
+        // Most builds expose Survey and jQuery ($). This call wires widgets into SurveyJS.
+        if (window.surveyjsWidgets && typeof window.surveyjsWidgets.init === "function") {
+          window.surveyjsWidgets.init(Survey, $);
+        }
 
         const survey = new Survey.Model(schema);
 
         survey.onComplete.add(function (sender) {
           console.log("Survey results:", sender.data);
-          // Later: POST sender.data to an endpoint if you want
         });
 
         $("#surveyContainer").Survey({ model: survey });
