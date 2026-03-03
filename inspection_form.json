@@ -1,0 +1,278 @@
+{
+  "title": "Cargo Tank Inspection Form",
+  "description": "Inspections and tests are to be performed on the Motor Vehicle Cargo Tank on the first Wednesday of each month.",
+  "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxgAAAEmCAMAAADWTMaiAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAA2UExURQAAABk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aBk3aAAAACpkr8gAAAAQdFJOUwBAgL/vn2AQr99wIM8wj1DjOwO6AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAAZAAAAGQAD5bF3QAAAAd0SU1FB+gDFg0kG3dE+sUAABZKSURBVHja7Z3rtrI4DIY/zoqK+/6vdkRQOZSSpE2Kzvv8mZm1xg20zTlt//0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaJBleV4Uxd+bsiiqvM6a1C8GQBqaLD+d/7YpqjZL/Y4AmHKpK59MfLhW7S31ywJgwq27koTi7VydIBzg17kRTcVSOKoaUQf4VS65SCpeQUd7Sf0BAMTnfgqQijHkgGyA36JpQ4zF1G7ApwI/Q5OXccSip6wQi4NfIKpYDC5VnfqbAAiljS0WPeccHhX4ZrJIscXao4JogK/lEp6J8jhUqb8OABkqXtQbBBrgK7kU4Yvfwzn19wEgQddcwGCAr6TRjC5gMMCXctNKRsFg+Llk9XPrVzHa62v/71We19m37m7pv6grPrvZ+n8t8jzPsi/sD6q1xQIGY0WT5ZU/qisfEvJVqylrd77oWjwknjFCbc75/+NTqcvF37fqPx0udUXe5FIW+f0LSkC3nJy7uVY1oUvo3cSarKdIPbx4UPheQOTGtYQvy4Nfu3dr2shaO2Pu/Oq5dizNIvrwu/yT7hU3c1NWtXdUb9dx/J//rFJohoY/TXx809qK/mJO+LR4El+QlBwB/hJ68VhK1Idc1EbUxU36SZ5dCb1vXw2S2tSPBVraG42LhVz4DEYjG9YT4dviJqDLU2gL/a0Le6OyotkNmWvcib6pDlo/19Y5pA+5uE5EoS3tJeOmXL0Y8M2n0N8p9r9Npji9BMhGE7aERijdmDe1EV19U9AezwGHsN8fcjH7zMcqLW2zEDZyoWAw/v72P04l11ZWohm6ROvl33+8sIOBnTiMtT/hvPARH0viIRfjV5RFH2A81qlAbuXYyIWGwfj729ecndLn8EXjEi/vt798M+mfZn5UHa/2NReN7q9sevE+j7F3/19308Rmo17We6JiMAjjpBc98UQjolhQYivxZ7Pc+FvczrqJaDyWRJ9yLMZsQFY+/6UwNBkm+ag//xKWr5n9HI3iJ5X0FE5UsSCkqeUOJEclB2fCV9w+H1D2/3gJxsOA9CKRUZzISBjJhU/SA+Lj3aUpdilIXGn6tYm9gnZXr9wLoAv7TWHpvP949Vf1/1gIxuO7rLqKDOrdu1MZ8A67PkV8pTajpMxTHT2IU/xqsmDE/6qp+iwGCXgJxiMOfiaST+JCCxNZXY1P5XmHkITqrsupXtCv9t4gsh9O+Wp5zEbP16po1M+qH1XpEHz30Xf5zLPkRkGGrqMxwecZhqzdcu8L9TNufsmI7kX17FXhQp5J23vc6Oxn+zSkvAVjfKuuGb/MRDAuNola/+IJE869L0z8cTqd/LXmR5PkQiky/WTfy5dgVFl2v75LfTmp2SEYo8DbbzDCdM9OGHq3+LrtdaoU4exkZsK8HELaR0suJuWZMbgY/tG8JaMwiTGUA9MPegZjrxtUq7w3Y6uFR8nf2PMfhc0gL/bztWoZ/sk66QbTMArC7eU+liHtv1QCB5CBnsHYUyC6Rzu8cPu9ah0FJ9Vv3m/lVxvUyaPvw6p5WYh8ENia0usQilHF+0/VYOwlhYy+0OVM6W2I9CuD0BHd9VX0MvxTy3t+Tu3bdbo+/azzfhIwHDNHymswQqXTn6Swyro5epcUE+F+ZyfUz9mLbhV3QC8ek00EI+sltrMofNs5Uj4hDx5lfzudVZlmbTI0C6e663YnH6rYcjp/ctHHbnX+0gJ1ntfyfVQMbLzvHk2DsbNKDPbrDixXk6Zc+CsNyiOqmcmcr/pL+VfObGNrcsCr/pEgLzrdt/B2K5mFUQvpV2208Zb3IjjIjfLf32SRcOpt02dHVn9E5vWXIu/S9zER3sLncFuU90ZmuRzdBjRfeS+kGeSFd0Q1S8LLldJ3KZbV/aFzbnVv+y1OQ7CLvHPlt/D9fZPy3sDUl1JuzLwoj6hP8IwPwp/uDjwbVDCiKBYaPoMR5S18joVJeW/k81RlL9VX3otiIj2qRjXL50rSNPXpuUjOlYVY/JLB8CZR7BIMEwdE20z50qlRbFWVaEAPcH5rHINxPfVnkT7oD17diBbUDYY3UaE5jUte06q+g96jauLEVNuqRrcsdIDrS8NV9Xl1KF6TuY5nVDcYvuyiWVP95Ev1sxqe2DiOQt/21VSDp90dBAYETl7ZbQn38og9n8GIlTLajkXNyns9o4ejXznZHtJYikB7xtyYnozjJiw63Llg8j5dGj6DEUv9bGtQs/LeZ171gzeP6xgrAtgaUV1FY7Rn1UfIABLuXf2cTGdhMDzdoHblvb9RMAz6bLZD42jZsHuS8Ux/FH7QHmtaE9d4DJeFwdh+SKM6j6uR+WdTNt3O3UR7+MaIKkt9+lsOArL7lGP3B+7XR4RuYTC2fVPD8t74GhZ1k83cTTxHp9N+gIsD3HMt1ixnVkKtPvsS0/Ey4puCYVesGV/DIgu2mbuJWLPdGFFR+2B/xgdpwRlstNhBrEhjtnDFXENbz7As7z1Xk0VMY6EG3K38XM906HJ6/zrL2rzwyFb68p7UuY/a2hhz0W69V8RHEChsLNRWRBW1u8/5BKZCLdzTkrWVW3+kL+8J9VpUuYjqdGykM1ix4lxfNRn/fqAiOGo6F6f8RbGlXLdyN1Frb85FypN7X3zZ1GvhSF/eE+YW4rbCR/VyNowwK1ZcJdvYJ3zkIVWTa+e4xKzJ6rxYCujGNMStvTmljzcge57RrZvLRvrynszgl1HlIm6+aMO74OhQl75iSoZY1svKe0HT5T69xnIrdxM3nnKOKM+GEqoSszvX0pf3ZEMY1wOMG6Wewh/i+hM2u5wKyrVlzf2lXzdyN5HzYa5Vyoy9aQv9/l6N6ct7opGi1y8oUEu0xKXttsKsiXROo8FB8AV9Pdza3nBseChUbUd091wjypQ96j2SlzGai7rAJIh0S2QHkKrLiR6XO25juWvO9am+LZ4hFk8evod7uZHflPg/uhw27sIpqcr0eYlf+vKeKMSIe5gP2WD8I/6P4R/q/AvK9TrS1Ro0qJqmDBhRft27oG66e4iG7BblmEhCjLiBEblE21KnMTiJ4tZXypcxxdM25DVbUUXI8W4SjXrOiR/Z2F5T7EJQB4qbkaKP8OUf8X90aibOF7pDWvMNzkLozSA3qrpwqBph+fLapQ+rSYMo+LZEBuNElmLXCwaU915oxhgxx5S8ZK9kO9oGPGVN0d3TW4QdBFowlcHIyNPo0r4sl9gd0ipmpWK61PRmkJo8og65DWx4sTrmQ4qgdThu2yPZYPSdbMRpdCXNQst7/zRvKYs6pOQv7TUcMV/rqOtEsJ8nSs0mEQK5j1vbI29ZGK4/J+HqBuWU99zZaD1PKmp7Db0OWdHn3zEiUSKusjpqxMFPSp3DHyqZxqcDR33b9XPCy3t6TeTU2lfsGe39fKpiDJi5Hc7tIc0GXzDiZpjJdv/pbVDNy3qlsfSbU4vpNZFHTWbQP/TE+SrH4o3mWZbdAUNx/tdFVW90tXPhTON6ZbOWtUuF6eVq45pguqbLwkY06pkr1eFEg/8NUR9PNhhD9EedxrUODi3vZXqRd9StavTGl+ErqYGT4yXjbvnuDuZQsT8gapsUvbgwaCyqYKzdPc66duSIFPf9Ow1GTmVpv+mB0LDUqYbQ4e5F7jYm91KZwK/vRXWIyXp8FEeqYKykN6y8V2tu3nYZDLrftnBx6JmzM+9JroRy7D30RfrdrIIZ8M2j/tMz3g9WzhAr1VrNlbLyGQouF4IeEc1/xzgZpOaNqMtRiH8cUfrdSfyl+SJm3pm85F7uBvl1l08y2EohxFnbI8e1i/VKF6hX+wJ1RJ01z/jX752OEmkkFQz6w2vuL5ZJDsUbFANxNkaQFf88mGIYjJduJgcKcVbPLga36kVem74BEkJere/4lPy6C/G1PZyThWsh0MPauVjR7eKn3436C6dCVDglO/0OJd5KexPv2XS//z395NddZDhML8ZgUYSNzMwyMtJEH2ee+gunZdO4oS79CYSyFRPv2eRUz2Tx8Cf+ie3hnByc4Sa5f2ye6qXr78khT0EvqnIc8CG6bhMKBl0tTqw49ScLRWx7OCcH5yog+5izplfGXNb8Ed3oBFJQOZG3NcjgC0a0XLPEYJCncSEYZnfSPqaV9yzncJJ/PfMY6dJ/Fvxqq7CrkO87RNKW/daxslL0WvL0ieQfzZ5lcH3LG2aN3DU0svIew6uZ1qKogrHZ0RVfMg5hMthvHckDpIdtM1VFdjJmY6t+7s3kbXlC6O4HIf98+it6dX72ULKd2ZzK+N7UEUxGqpemj+bMRJGncfYru/Je2fDCUaeDIirvMYS/Fo3otg8dvcEybr+xDHYX0Cn8mf/EBoM+jbPJtyvvZUz96RQMSXmPkTidLzuy0vD40E3sm6MO0DTFztfEkWahwaC/7tSw2ZX3Wq51cgmGqLzHkMdaNhPe5tdLXKOc/rg1Qe0yxpYSqcGgv+7UsJmV9/raFE/TuARDUt4TGwy6YOz40FFFI/0dAILIKUZ7LX0QFwac/LqF5EeBPGu2PLfN1QBB9ktKyYAu5080ok4uXbxYw2bx++DvwIkQZNCdheVskKdx2g1qdO/90MvA/JFjdMg25yQY0JUrTF4AhCampo4VzaUPMgRuRniWmb5SlxGfKJNpU94be3yYv3KsAPJvc8GArgw+fQGQpvbGv5PNRfpDdQSBabAvRZ+LlfmWBO02F768et+YP2sDRifj/2SdO6H/lhpc3iPIRvorWwXqNDQv1dBTxCvFQZ/GT8bGpLzXsl9wazDpzu37J4yAv5aPKEOL36vAzcAHKPEJ+usC7Rw9UFzHe/Rp/Axt7CS7g1KivAdWK5XsFl0FzzwHjChPi9+6kHjjAIIhSNmEJdMYCnxtvOnT+Gnr1y/vFRfBC46srvkl69qO/QvX4qb70uzFemnFXc0HEAxJR32IB3hjZNzXp8VIrI10ckSzyE9mLDbm0COi1ywwNE3pOICH/ONXEqxhpIyaWpYSPMBROpLQNKD9UWPPlxP+dlghxcyuCZ42lwy6ohqfywjZAj/0/Yasw9FEspE+KyU7q1hcy2js2pZej9Qt750X1lMihtV0nbHLe3a7Ez8PLHOWauRXxY8gGKJSvtCZMpSLd4VAs7y3XiCi3PB14pxwy3tmJvhdwCrcX+6F24B7hB0Zomym7OR6S7l4Kx3NhePwKWV/KGef2vGKbAxybi+y2RuWFWcNRNi/ZY2s91QiGYy4OwLjwtEt762zJ8I/VHbDgHLLCjbVy4GhNDTZiXWlX23BczEP0ET4T5rO5EtGbSoXr2ymbnlvbTLkoXBZVHlOd/yGx1kesThogbnuL1paQZxnMQ7Qds5+58888iQj+maWPUato/zYlcmwOpBkKO+ZHphVuUXx3N13DQczdXaIE3TE1rjkvH5mlVR8MxaGlcOalcmwUuGdqRg+GVSNcyLPVetLJHGDy4NcIyNeO2SL16Q4VHl4tPZTlibDKnv6zAvanrD4TBB7QtJzkbeZw4+45Uwn+gh7vnvkt6JcSfnmhjswcbiYLJ2lybBaq8+vMzbD/SMJBchrUXxuUigK/uQfI8QIy2zsX54Wc2MXC9Ydc0+4TRLDjxZawObjntrb8FigJ/2IWoSKxwgx/gV6qv50trBXJgbPfhvO418WnOf3LU2GTa2m9/fNmkFeZKFrhUb57ygEap7rRsruUp8SGYsnT1XOWTuvRhfmwYULk2GTfesfan5Udf9Qg8cc47zzJ8Hr99rVM8NxyfLQvSrB9EqV5SW+Wzp5WnFhMjQOAF+TmTaDjHQ2IdRhPKlYuudcjKS0Ex8K7ip9ZxKYFnRhMky+vjFtBhkpVK+vfXEcT+rQNw4F8I+5eD7jwTN2i+yiRWr6atsM8vlQg5DxKDkps8k0p+E5RZMGHaZenPcaW/hSVZopM0kQH6S6N5BA/eiT8UJF2UmwPQuTYeBL1WluT7sZrJM4hyNH4xdNBnP13OXDITwOVs4tzSVRmYE1PMIepQm/aDJynkt0kQ/H2Xgsy0TXbbb6Af8xOs4n/KDJOInKewPMILO2HcvCuhlkJNe3UwczGCmy4urwls/ct2VqZGOTkVs3g4zoy8XhDMaRr/yVUsrKewNMlTw3Gdoeh30TvxWHSknJlsIXICvvDTB18txkaJtf+9qeEQc4aG1NmnhOE1Y/33I4mGt7bjJ0XZ3z77m9A4SrBlKQrhH2AKzmhOlanjGW4aS/FsPJD8bfdFaNCNwIusZYhnKAgznd2DSGHpP1EXLMpOvCZDB718Gh2s2X/GxQt886HcJd2gvRSpRR/V6uRzh+cAPTowIdQ5Pvo1Q8c/U6M7P2yy38R5CMItvHoJOcwpHlwvqwwAWkk6qUcmeu1jXuyq4Df68ApY58jGyk7NBXO1KGGaSTopW2jjgT6MzKzurUl+SSQaojHyIaOrpcmGzR2oC4QUXn4VmMsVhJ9j1xborWeJT2HZ8c248aSNVNSO3D13m681HcnOv6oLBb0qCN2HiU8hXHF/0CuUhVmyLrDJ2nu5/FVRKOK+5SVvqInaoJ33DgkI0ga5Kkpui2VKXDc8ON4xb5XGdLGh/yPoHaqZq4Se58uE7zLRJIBiP2UhGMrbifq+9df+eSZLPdH31rQ6r3G2Bd6JcYc8ng5CRUpnGr2zn8PvueexKdTN7awBrRyJ9SHD4bNcNYMli5Og2nffsoI+462DA9KY61JnsoLMH4V0dcG8XXeFEvGkvzystha2yo2s6IcUsRWyfY25/4Tu88YjUCPZZyFilxWX2dWPTYZW2ZtR0NwdhOi7C7ZDerlE0d5oVc2xtLW9H3wrFG9LmYL22wR3XOj7hZj4JVQ+GV6WVqCEYW73G+S0/EqvZc9bd5sQIeRqsq76qE8Ue3LkA2yupA59OysWloYNc8NV7L8zj2wQbeKW/41yKcq3rUrSznnqGPWYIxSWxfWlG8991S0WPRUXhiJ+saQsPomyPmPO4ddYWXRb5/72Naspx11UN5ao84JVz0Q/BDHeBrOLD3vPB6ImXRtdnBZeJNf+fD/kq5nvL7t4YVa3TP1ClJ/bQ/S3bvr6ibXJpwffxXnteHtHOEz8nyvHt8wdQe9jdDVHl+z35HJEZuirUpbtgNwHHQu7i++hZXAQAXmUoZvPz21AQAClXb4uecTvA/pIlcB4e5AD9C1N7pb+o0BsBPFks04EWB3yJKV+X3dRoDsMelCwzDTxAL8JvUco/q3MGJAr/LpZUUNr6/pxKAPS4tz26cIRXgf0JD7Z7+kU5jAMg0WX7yNRmWRVdDKMD/lFv27J6eek59r3H9NfsJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgg/8ArbRigewevxgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjQtMDMtMjJUMTM6MzY6MjcrMDA6MDCTTGTyAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI0LTAzLTIyVDEzOjM2OjI3KzAwOjAw4hHcTgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNC0wMy0yMlQxMzozNjoyNyswMDowMLUE/ZEAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC",
+  "pages": [
+    {
+      "name": "Page 1",
+      "title": "Vehicle Info",
+      "description": "Enter the DOT info",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Technician Name",
+          "title": "Inspected by:",
+          "isRequired": true,
+          "autocomplete": "name",
+          "placeholder": "Enter your name",
+          "dataList": [
+            "Joward ",
+            "John ",
+            "Jason ",
+            "Jimble ",
+            "Jib",
+            "Jam",
+            "Jeffs",
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "name": "Date Time",
+          "startWithNewLine": false,
+          "title": "Inspection Date",
+          "isRequired": true,
+          "inputType": "date"
+        },
+        {
+          "type": "text",
+          "name": "Odometer",
+          "startWithNewLine": false,
+          "title": "Odometer",
+          "inputType": "number"
+        },
+        {
+          "type": "radiogroup",
+          "name": "Vehicle Type",
+          "title": "Vehicle Type",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Bobtail"
+            },
+            {
+              "value": "Item 2",
+              "text": "Bulk"
+            },
+            {
+              "value": "Item 3",
+              "text": "Cylinder"
+            },
+            {
+              "value": "Item 4",
+              "text": "Service"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "Vehicle ID Bobtail",
+          "visibleIf": "{Vehicle Type} = 'Item 1'",
+          "startWithNewLine": false,
+          "title": "Vehicle ID",
+          "isRequired": true,
+          "fieldMapping": [
+            "bEquipmentID"
+          ],
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "CE101NQL"
+            },
+            {
+              "value": "Item 2",
+              "text": "CE202NQL"
+            },
+            {
+              "value": "Item 3",
+              "text": "CE303NQL"
+            },
+            {
+              "value": "Item 4",
+              "text": "CE404NQL"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "Vehicle ID Service",
+          "visibleIf": "{Vehicle Type} = 'Item 4'",
+          "startWithNewLine": false,
+          "title": "Vehicle ID",
+          "isRequired": true,
+          "fieldMapping": [
+            "bEquipmentID"
+          ],
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "CE101NQL"
+            },
+            {
+              "value": "Item 2",
+              "text": "CE202NQL"
+            },
+            {
+              "value": "Item 3",
+              "text": "CE303NQL"
+            },
+            {
+              "value": "Item 4",
+              "text": "CE404NQL"
+            }
+          ]
+        },
+        {
+          "type": "paneldynamic",
+          "name": "Piping System",
+          "title": "Piping System",
+          "description": "Carefully examine each component of the system visually looking for any signs of leakage.",
+          "isRequired": true,
+          "templateElements": [
+            {
+              "type": "boolean",
+              "name": "Pump",
+              "title": "Pump",
+              "isRequired": true,
+              "labelTrue": "Pass",
+              "labelFalse": "Fail",
+              "valueTrue": "Pass",
+              "valueFalse": "Fail",
+              "swapOrder": true
+            },
+            {
+              "type": "text",
+              "name": "Pump Failure",
+              "visibleIf": "{Piping System[0].Pump} = 'Fail'",
+              "startWithNewLine": false,
+              "title": "Failure Comments",
+              "isRequired": true,
+              "requiredIf": "{Piping System[0].Pump} = 'Fail'"
+            },
+            {
+              "type": "boolean",
+              "name": "Valve",
+              "title": "Valve",
+              "isRequired": true,
+              "labelTrue": "Pass",
+              "labelFalse": "Fail",
+              "swapOrder": true
+            },
+            {
+              "type": "text",
+              "name": "question6",
+              "visibleIf": "{Piping System[0].Valve} = false",
+              "startWithNewLine": false,
+              "title": "Failure Comments",
+              "isRequired": true,
+              "requiredIf": "{Piping System[0].Valve} = false"
+            },
+            {
+              "type": "boolean",
+              "name": "Flange",
+              "title": "Flange",
+              "isRequired": true,
+              "labelTrue": "Pass",
+              "labelFalse": "Fail",
+              "swapOrder": true
+            },
+            {
+              "type": "text",
+              "name": "question7",
+              "visibleIf": "{Piping System[0].Flange} = false",
+              "startWithNewLine": false,
+              "title": "Failure Comments",
+              "isRequired": true,
+              "requiredIf": "{Piping System[0].Flange} = false"
+            }
+          ],
+          "allowAddPanel": false,
+          "allowRemovePanel": false,
+          "panelCount": 1,
+          "minPanelCount": 1,
+          "maxPanelCount": 1,
+          "tabAlign": "left"
+        },
+        {
+          "type": "paneldynamic",
+          "name": "Metering",
+          "startWithNewLine": false,
+          "title": "Metering System",
+          "description": "Carefully examine each component of the metering.",
+          "isRequired": true,
+          "templateElements": [
+            {
+              "type": "boolean",
+              "name": "Bypass Valve",
+              "title": "Bypass Valve",
+              "isRequired": true,
+              "labelTrue": "Pass",
+              "labelFalse": "Fail",
+              "valueTrue": "Pass",
+              "valueFalse": "Fail",
+              "swapOrder": true
+            },
+            {
+              "type": "text",
+              "name": "question8",
+              "visibleIf": "{Metering[0].Bypass Valve} = 'Fail'",
+              "startWithNewLine": false,
+              "title": "Failure Comments",
+              "isRequired": true
+            },
+            {
+              "type": "boolean",
+              "name": "Hose Reel",
+              "title": "Hose Reel",
+              "isRequired": true,
+              "labelTrue": "Pass",
+              "labelFalse": "Fail",
+              "swapOrder": true
+            },
+            {
+              "type": "text",
+              "name": "question9",
+              "visibleIf": "{Metering[0].Hose Reel} = false",
+              "startWithNewLine": false,
+              "title": "Failure Comments",
+              "isRequired": true
+            },
+            {
+              "type": "boolean",
+              "name": "Gaskets",
+              "title": "Gaskets",
+              "isRequired": true,
+              "labelTrue": "Pass",
+              "labelFalse": "Fail",
+              "swapOrder": true
+            },
+            {
+              "type": "text",
+              "name": "question5",
+              "visibleIf": "{Metering[0].Gaskets} = false",
+              "startWithNewLine": false,
+              "title": "Failure Comments",
+              "isRequired": true
+            }
+          ],
+          "allowAddPanel": false,
+          "allowRemovePanel": false,
+          "panelCount": 1,
+          "minPanelCount": 1,
+          "maxPanelCount": 1,
+          "tabAlign": "left"
+        },
+        {
+          "type": "signaturepad",
+          "name": "Signature",
+          "title": "Inspector Signature",
+          "description": "I certify all information recorded is true and accurate",
+          "isRequired": true,
+          "signatureWidth": 800,
+          "signatureHeight": 300
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cargo Tank Inspection Form</title>
+
+  <!-- SurveyJS (Modern UI) -->
+  <link href="https://unpkg.com/survey-core/defaultV2.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+  <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 16px; }
+    .top-note { font-size: 14px; opacity: 0.8; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-note">Cargo Tank Inspection Form</div>
+    <div id="surveyContainer"></div>
+  </div>
+
+  <script>
+    async function main() {
+      // Load your JSON schema
+      const res = await fetch("./form.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("Could not load form.json");
+      const schema = await res.json();
+
+      // Create Survey model
+      const survey = new Survey.Model(schema);
+
+      // Optional: show completed message + log results
+      survey.onComplete.add((sender) => {
+        console.log("Survey results:", sender.data);
+        // If you later want to POST to an API endpoint, do it here.
+      });
+
+      // Render
+      Survey.SurveyUI.render("surveyContainer", { model: survey });
+    }
+
+    main().catch((e) => {
+      document.getElementById("surveyContainer").innerHTML =
+        "<p style='color:#b00'>Error loading form: " + e.message + "</p>";
+      console.error(e);
+    });
+  </script>
+</body>
+</html>
