@@ -35,13 +35,6 @@
           "inputType": "date"
         },
         {
-          "type": "text",
-          "name": "Odometer",
-          "startWithNewLine": false,
-          "title": "Odometer",
-          "inputType": "number"
-        },
-        {
           "type": "radiogroup",
           "name": "Vehicle Type",
           "title": "Vehicle Type",
@@ -52,16 +45,12 @@
               "text": "Bobtail"
             },
             {
-              "value": "Item 2",
-              "text": "Bulk"
+              "value": "Item 4",
+              "text": "Service"
             },
             {
               "value": "Item 3",
               "text": "Cylinder"
-            },
-            {
-              "value": "Item 4",
-              "text": "Service"
             }
           ]
         },
@@ -107,19 +96,19 @@
           "choices": [
             {
               "value": "Item 1",
-              "text": "CE101NQL"
+              "text": "SV007"
             },
             {
               "value": "Item 2",
-              "text": "CE202NQL"
+              "text": "SV008"
             },
             {
               "value": "Item 3",
-              "text": "CE303NQL"
+              "text": "SV009"
             },
             {
               "value": "Item 4",
-              "text": "CE404NQL"
+              "text": "SV010"
             }
           ]
         },
@@ -185,75 +174,6 @@
               "title": "Failure Comments",
               "isRequired": true,
               "requiredIf": "{Piping System[0].Flange} = false"
-            }
-          ],
-          "allowAddPanel": false,
-          "allowRemovePanel": false,
-          "panelCount": 1,
-          "minPanelCount": 1,
-          "maxPanelCount": 1,
-          "tabAlign": "left"
-        },
-        {
-          "type": "paneldynamic",
-          "name": "Metering",
-          "startWithNewLine": false,
-          "title": "Metering System",
-          "description": "Carefully examine each component of the metering.",
-          "isRequired": true,
-          "templateElements": [
-            {
-              "type": "boolean",
-              "name": "Bypass Valve",
-              "title": "Bypass Valve",
-              "isRequired": true,
-              "labelTrue": "Pass",
-              "labelFalse": "Fail",
-              "valueTrue": "Pass",
-              "valueFalse": "Fail",
-              "swapOrder": true
-            },
-            {
-              "type": "text",
-              "name": "question8",
-              "visibleIf": "{Metering[0].Bypass Valve} = 'Fail'",
-              "startWithNewLine": false,
-              "title": "Failure Comments",
-              "isRequired": true
-            },
-            {
-              "type": "boolean",
-              "name": "Hose Reel",
-              "title": "Hose Reel",
-              "isRequired": true,
-              "labelTrue": "Pass",
-              "labelFalse": "Fail",
-              "swapOrder": true
-            },
-            {
-              "type": "text",
-              "name": "question9",
-              "visibleIf": "{Metering[0].Hose Reel} = false",
-              "startWithNewLine": false,
-              "title": "Failure Comments",
-              "isRequired": true
-            },
-            {
-              "type": "boolean",
-              "name": "Gaskets",
-              "title": "Gaskets",
-              "isRequired": true,
-              "labelTrue": "Pass",
-              "labelFalse": "Fail",
-              "swapOrder": true
-            },
-            {
-              "type": "text",
-              "name": "question5",
-              "visibleIf": "{Metering[0].Gaskets} = false",
-              "startWithNewLine": false,
-              "title": "Failure Comments",
-              "isRequired": true
             }
           ],
           "allowAddPanel": false,
