@@ -12,7 +12,6 @@
           "type": "text",
           "name": "Technician Name",
           "title": "Inspected by:",
-          "isRequired": true,
           "autocomplete": "name",
           "placeholder": "Enter your name",
           "dataList": [
@@ -31,14 +30,12 @@
           "name": "Date Time",
           "startWithNewLine": false,
           "title": "Inspection Date",
-          "isRequired": true,
           "inputType": "date"
         },
         {
           "type": "radiogroup",
           "name": "Vehicle Type",
           "title": "Vehicle Type",
-          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -60,7 +57,6 @@
           "visibleIf": "{Vehicle Type} = 'Item 1'",
           "startWithNewLine": false,
           "title": "Vehicle ID",
-          "isRequired": true,
           "fieldMapping": [
             "bEquipmentID"
           ],
@@ -89,7 +85,6 @@
           "visibleIf": "{Vehicle Type} = 'Item 4'",
           "startWithNewLine": false,
           "title": "Vehicle ID",
-          "isRequired": true,
           "fieldMapping": [
             "bEquipmentID"
           ],
@@ -123,13 +118,11 @@
           "name": "Piping System",
           "title": "Piping System",
           "description": "Carefully examine each component of the system visually looking for any signs of leakage.",
-          "isRequired": true,
           "templateElements": [
             {
               "type": "boolean",
               "name": "Pump",
               "title": "Pump",
-              "isRequired": true,
               "labelTrue": "Pass",
               "labelFalse": "Fail",
               "valueTrue": "Pass",
@@ -141,15 +134,12 @@
               "name": "Pump Failure",
               "visibleIf": "{Piping System[0].Pump} = 'Fail'",
               "startWithNewLine": false,
-              "title": "Failure Comments",
-              "isRequired": true,
-              "requiredIf": "{Piping System[0].Pump} = 'Fail'"
+              "title": "Failure Comments"
             },
             {
               "type": "boolean",
               "name": "Valve",
               "title": "Valve",
-              "isRequired": true,
               "labelTrue": "Pass",
               "labelFalse": "Fail",
               "swapOrder": true
@@ -159,9 +149,7 @@
               "name": "question6",
               "visibleIf": "{Piping System[0].Valve} = false",
               "startWithNewLine": false,
-              "title": "Failure Comments",
-              "isRequired": true,
-              "requiredIf": "{Piping System[0].Valve} = false"
+              "title": "Failure Comments"
             }
           ],
           "allowAddPanel": false,
@@ -176,7 +164,6 @@
           "name": "Signature",
           "title": "Inspector Signature",
           "description": "I certify all information recorded is true and accurate",
-          "isRequired": true,
           "signatureWidth": 800,
           "signatureHeight": 300
         }
